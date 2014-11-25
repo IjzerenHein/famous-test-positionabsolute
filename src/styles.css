@@ -1,0 +1,23 @@
+body, div {
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: normal;
+}
+body {
+  background: white;
+}
+input {
+	font-size: 18px;
+}
+.surface {
+	background: purple;
+	color: white;
+}
+
+
+/** 
+ * Add body position absolute from famo.us v0.2, otherwise the the scroll offset
+ * of the window is incorrect when the virtual keyboard is shown. 
+ */
+/*body {
+    position: absolute;
+}*/
